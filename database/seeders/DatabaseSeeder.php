@@ -23,5 +23,11 @@ class DatabaseSeeder extends Seeder
                 'email_verified_at' => now(),
             ]
         );
+
+        $this->call([
+            SensorSeeder::class,
+            FloodZoneSeeder::class,
+            WaterLevelLogSeeder::class,
+        ]);
     }
 }
