@@ -22,6 +22,7 @@ export default [
             'react/react-in-jsx-scope': 'off',
             'react/prop-types': 'off',
             'react/no-unescaped-entities': 'off',
+            '@typescript-eslint/no-unused-vars': 'off',
         },
         settings: {
             react: {
